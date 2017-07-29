@@ -1,0 +1,9 @@
+def main(args):
+	A =  float(input())
+	B =  float(input())
+	M = (3.5*A + 7.5*B)/11
+	print('MEDIA = %.5f' % M)
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
