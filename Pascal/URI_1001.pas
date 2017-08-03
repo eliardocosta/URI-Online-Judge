@@ -8,6 +8,5 @@ BEGIN
 	readln(B);
 	X := A + B;
 	writeln('X = ', X);
-	
 END.
 
